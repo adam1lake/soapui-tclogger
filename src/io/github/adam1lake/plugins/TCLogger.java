@@ -23,9 +23,9 @@ import java.util.List;
     autoDetect = true,
     description = "A logger plugin for SoapUI test case execution"
 )
-public class LoggerPlugin extends PluginAdapter {
+public class TCLogger extends PluginAdapter {
 
-    public LoggerPlugin() {
+    public TCLogger() {
         super();
         configureLog4j();
     }

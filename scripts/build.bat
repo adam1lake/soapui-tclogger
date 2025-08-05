@@ -5,7 +5,7 @@ setlocal enabledelayedexpansion
 set SOAPUI_HOME=C:\Program Files\SmartBear\SoapUI-5.7.2
 set SRC_DIR=src
 set OUT_DIR=target
-set PACKAGE_NAME=logger-plugin.jar
+set PACKAGE_NAME=soapui-tclogger.jar
 
 :: ----- Clean target directory -----
 cd ..
